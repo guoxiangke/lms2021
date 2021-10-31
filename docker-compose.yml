@@ -5,7 +5,6 @@ services:
     image: guoxiangke/lms2021
     build:
       context: .
-    dockerfile: Dockerfile
     ports:
       - 8008:80
     volumes:

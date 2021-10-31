@@ -49,7 +49,7 @@ RUN rm -rf /var/www/html \
 
 COPY ./laravel /var/www/html
 COPY --from=vendor /var/www/html/vendor /var/www/html/vendor
-COPY --from=frontend /app/public/ /var/www/html/public/
+COPY --from=frontend /app/public /var/www/html/public
 
 COPY docker/start.sh /usr/local/bin/start
 WORKDIR /var/www/html

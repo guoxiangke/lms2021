@@ -9,4 +9,3 @@ laravel/yarn-error.log
 .idea/
 
 laravel/bootstrap/cache/*
-laravel/storage
