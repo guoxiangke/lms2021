@@ -8,9 +8,9 @@ services:
     ports:
       - 8008:80
     volumes:
+      - ./laravel/.env:/var/www/html/.env
       - ./laravel/app:/var/www/html/app
       - ./laravel/config:/var/www/html/config
       - ./laravel/database:/var/www/html/database
       - ./laravel/routes:/var/www/html/routes
       - ./laravel/storage:/var/www/html/storage
-      - ./laravel/vendor:/var/www/html/vendor
