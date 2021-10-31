@@ -1,0 +1,12 @@
+.dockerignore
+.git/
+laravel/vendor/
+laravel/node_modules/
+laravel/public/
+laravel/yarn-error.log
+.DS_Store
+.env.*
+.idea/
+
+laravel/bootstrap/cache/*
+laravel/storage
